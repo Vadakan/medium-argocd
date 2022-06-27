@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: default
+    namespace: argocd
     server: https://kubernetes.default.svc
   project: default
   source:
@@ -13,6 +13,6 @@ spec:
       valueFiles:
         - values.yaml
     path: manifests/helm-app
-    repoURL: https://github.com/Abszissex/medium-argocd.git
+    repoURL: https://github.com/Vadakan/medium-argocd.git
     targetRevision: HEAD
   syncPolicy: {}
