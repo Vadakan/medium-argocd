@@ -1,4 +1,4 @@
 namespace: argocd
 
 service:
-  port: 30010
+  port: 30030
