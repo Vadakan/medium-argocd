@@ -1,4 +1,4 @@
-namespace: argocd
+namespace: argoapp
 
 service:
   port: 30030
