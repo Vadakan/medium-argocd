@@ -1,4 +1,4 @@
-namespace: sandbox
+namespace: argocd
 
 service:
   port: 30002
